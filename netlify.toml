@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "polinakato.com/slumbering-distractions/slumbering-distractions"
+  to = "polinakato.com/slumbering-distractions"
+  status = 301
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["en"], Country = ["US"]}
