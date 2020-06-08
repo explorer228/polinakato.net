@@ -1,7 +1,7 @@
 [[redirects]]
   from = "/slumbering-distractions/slumbering-distractions"
   to = "/slumbering-distractions"
-  status = 301
-  force = false
+  status = 200
+  force = true
   query = {path = ":path"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["en"], Country = ["US"]}
