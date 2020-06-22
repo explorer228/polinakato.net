@@ -1,24 +1,39 @@
-/* iframe{
-       position: absolute;
-       width: 100%;
-       height: 100%;
-       }  */
-
-       #container{
+/* #container{
          position: relative;
-       }
-       iframe{
-       position: absolute;
+} */
+iframe{
        min-width: 105%;
        min-height: 105%;
-       width: 105%;
-       height: 105%;
+       overflow: hidden;
+       width: 100%;
+       height: 100%;
+       position: absolute;
        left:0%;
        top:0%;
        right:0%;;
        bottom:0%;
               }
-       body{
+body{
                 overflow: hidden;
                 cursor: none;
               }
+#dust{
+  position: absolute;
+  z-index: 0;
+}
+#abstract{
+  position: absolute;
+  z-index: 1;
+}
+#strean{
+  position: absolute;
+  z-index: 2;
+}
+#forest{
+  position: absolute;
+  z-index: 3;
+}
+#sun{
+  position: absolute;
+  z-index: 4;
+}
