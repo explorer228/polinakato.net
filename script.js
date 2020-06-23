@@ -1,8 +1,8 @@
-const videos = [120000, 28000, 10500, 39000, 60000]
+const videos = [120000, 28000, 10500, 39000]
 
 const changezIndex = (event) => {
 
-  const randomNumber = Math.floor(Math.random()*5)
+  const randomNumber = Math.floor(Math.random()*4)
   console.log("random number: ", randomNumber)
 
   document.querySelectorAll(".video").forEach((video, index) => {
@@ -12,7 +12,7 @@ const changezIndex = (event) => {
       video.style["z-index"] = 1
     }
   })
-  
+
 const coinFlip = Math.random()
 const timeToPlay = coinFlip > 0.5 ? videos[randomNumber] : 5000
   setTimeout(changezIndex, timeToPlay)
