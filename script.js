@@ -1,8 +1,3 @@
-
-// const coinFlip = Math.random()
-// if (coinFlip > 0.5) return
-
-
 const videos = [120000, 28000, 10500, 39000, 60000]
 
 const changezIndex = (event) => {
@@ -17,6 +12,7 @@ const changezIndex = (event) => {
       video.style["z-index"] = 1
     }
   })
+  
 const coinFlip = Math.random()
 const timeToPlay = coinFlip > 0.5 ? videos[randomNumber] : 5000
   setTimeout(changezIndex, timeToPlay)
