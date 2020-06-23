@@ -1,39 +1,18 @@
-/* #container{
-         position: relative;
-} */
 iframe{
-       min-width: 105%;
-       min-height: 105%;
-       overflow: hidden;
-       width: 100%;
-       height: 100%;
-       position: absolute;
-       left:0%;
-       top:0%;
-       right:0%;;
-       bottom:0%;
-              }
+  min-width: 100%;
+  min-height: 100%;
+  width:100%;
+  length:100%;
+  left:0%;
+  top:0%;
+  right:0%;
+  bottom:0%;
+}
+
 body{
-                overflow: hidden;
-                cursor: none;
+        overflow: hidden;
+        cursor: none;
               }
-#dust{
+.video{
   position: absolute;
-  z-index: 0;
-}
-#abstract{
-  position: absolute;
-  z-index: 1;
-}
-#strean{
-  position: absolute;
-  z-index: 2;
-}
-#forest{
-  position: absolute;
-  z-index: 3;
-}
-#sun{
-  position: absolute;
-  z-index: 4;
 }

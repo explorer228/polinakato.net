@@ -1,21 +1,24 @@
-const randomNumber = Math.floor(Math.random()*7)
 
-const video = document.getElementById("dust");
-video.style.zIndex = randomNumber;
-console.log("dust Z-INDEX: ", randomNumber)
+// const coinFlip = Math.random()
+// if (coinFlip > 0.5) return
 
-const video = document.getElementById("abstract");
-video.style.zIndex = randomNumber;
-console.log("abstract Z-INDEX: ", randomNumber)
 
-const video = document.getElementById("stream");
-video.style.zIndex = randomNumber;
-console.log("stream Z-INDEX: ", randomNumber)
+const videos = [120000, 28000, 10500, 39000, 60000]
 
-const video = document.getElementById("forest");
-video.style.zIndex = randomNumber;
-console.log("forest Z-INDEX: ", randomNumber)
+const changezIndex = (event) => {
 
-const video = document.getElementById("sun");
-video.style.zIndex = randomNumber;
-console.log("sun Z-INDEX: ", randomNumber)
+  const randomNumber = Math.floor(Math.random()*5)
+  console.log("random number: ", randomNumber)
+
+  document.querySelectorAll(".video").forEach((video, index) => {
+    if(index === randomNumber){
+      video.style["z-index"] = 10
+    } else {
+      video.style["z-index"] = 1
+    }
+  })
+const coinFlip = Math.random()
+const timeToPlay = coinFlip > 0.5 ? videos[randomNumber] : 5000
+  setTimeout(changezIndex, timeToPlay)
+}
+changezIndex()
