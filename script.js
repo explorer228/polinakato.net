@@ -2,7 +2,7 @@ const videos = [120000, 28000, 10500, 39000]
 
 const changezIndex = (event) => {
 
-  const randomNumber = Math.floor(Math.random()*4)
+  const randomNumber = Math.floor(Math.random()*3)
   console.log("random number: ", randomNumber)
 
   document.querySelectorAll(".video").forEach((video, index) => {

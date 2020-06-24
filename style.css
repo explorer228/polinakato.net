@@ -2,8 +2,8 @@ iframe{
   position:fixed;
   width:80%;
   height:80%;
-  left:3%;
-  top:10%;
+  left:2%;
+  top:5%;
   right:0%;
   bottom:10%;
 }
@@ -14,4 +14,11 @@ body{
               }
 .video{
   position: absolute;
+}
+.svg{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  width: 100%;
 }
