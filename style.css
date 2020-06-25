@@ -1,24 +1,46 @@
 iframe{
-  position:fixed;
+  position: absolute;
   width:80%;
   height:80%;
-  left:2%;
+  left:1%;
   top:5%;
   right:0%;
   bottom:10%;
 }
 
 body{
-        overflow: hidden;
-        cursor: none;
-              }
+  cursor: none;
+}
 .video{
   position: absolute;
 }
-.svg{
+.svg-noise{
+  z-index:auto;
   position: absolute;
-  bottom: 0;
+  top:75%;
   left:0;
   right:0;
   width: 100%;
+}
+.svg2{
+  z-index: 6;
+  position:absolute;
+  top:100%;
+  left:10%;
+  width:80%;
+  height:80%;
+  margin-top: 10%;
+}
+.svg3{
+  z-index: 5;
+  position:absolute;
+  top:100%;
+  left:10%;
+  width:80%;
+  height:80%;
+  margin-top: 10%;
+}
+
+.svg-dice{
+  display:none;
 }
