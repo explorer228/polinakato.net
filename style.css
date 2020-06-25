@@ -1,11 +1,6 @@
 iframe{
-  position: absolute;
-  width:80%;
-  height:80%;
-  left:1%;
-  top:5%;
-  right:0%;
-  bottom:10%;
+  width:80vw;
+  height:80vw;
 }
 
 body{
@@ -13,11 +8,21 @@ body{
 }
 .video{
   position: absolute;
+  width:80%;
+  height:80%;
+  left:1%;
+  top:3%;
+  right:0%;
+  bottom:10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 .svg-noise{
   z-index:auto;
   position: absolute;
-  top:75%;
+  top:70%;
   left:0;
   right:0;
   width: 100%;
@@ -43,4 +48,9 @@ body{
 
 .svg-dice{
   display:none;
+  position: absolute;
+  width:10%;
+  height:10%;
+  left:85%;
+  top:35%;
 }
