@@ -34,6 +34,15 @@ body{
   right:0;
   width: 100%;
 }
+.svg1{
+  position:absolute;
+  left:5%;
+  top:100%;
+  width:90%;
+  height:90%;
+  margin-top: 5%;
+  bottom:0%
+}
 .svg2{
   z-index: 6;
   position:absolute;
