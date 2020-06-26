@@ -28,23 +28,23 @@ body{
   width: 100%;
 }
 .svg2{
-  z-index: 5;
-  position:absolute;
-  top:100%;
-  left:10%;
-  width:80%;
-  height:80%;
-  margin-top: 7%;
-  bottom:0%
-}
-.svg3{
   z-index: 6;
   position:absolute;
   top:100%;
   left:10%;
   width:80%;
   height:80%;
-  margin-top: 7%;
+  margin-top: 15%;
+  bottom:0%
+}
+.svg3{
+  z-index: 5;
+  position:absolute;
+  top:100%;
+  left:10%;
+  width:80%;
+  height:80%;
+  margin-top: 15%;
   bottom:0%
 }
 
