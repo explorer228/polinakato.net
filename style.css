@@ -19,6 +19,13 @@ body{
   justify-content: center;
   overflow: hidden;
 }
+.audio{
+  position:absolute;
+  width:8%;
+  height:5%;
+  left: 89%;
+ display: flex;
+}
 .svg-noise{
   z-index:auto;
   position: absolute;
