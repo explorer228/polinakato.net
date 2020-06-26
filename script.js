@@ -23,7 +23,7 @@ const changeVideo = (event) => {
 
 const coinFlip = Math.random()
 const timeToPlay = coinFlip > 0.5 ? videos[randomNumber] : 5000
-  // setTimeout(changeVideo, timeToPlay)
-  setTimeout(changeVideo, 5000)
+  setTimeout(changeVideo, timeToPlay)
+  // setTimeout(changeVideo, 5000)
 }
 changeVideo()
