@@ -13,13 +13,13 @@ const changeVideo = (event) => {
     }
   })
 
-  document.querySelectorAll(".svg-dice").forEach((svg, index) => {
-    if(index === randomNumber){
-      svg.style["display"] = "block";
-    } else {
-      svg.style["display"] = "none";
-    }
-  })
+  // document.querySelectorAll(".svg-dice").forEach((svg, index) => {
+  //   if(index === randomNumber){
+  //     svg.style["display"] = "block";
+  //   } else {
+  //     svg.style["display"] = "none";
+  //   }
+  // })
 
 const coinFlip = Math.random()
 const timeToPlay = coinFlip > 0.5 ? videos[randomNumber] : 5000

@@ -1,6 +1,6 @@
 iframe{
-  width:85vw;
-  height:85vw;
+  width:100vw;
+  height:90vw;
 }
 
 body{
@@ -8,10 +8,10 @@ body{
 }
 .video{
   position: absolute;
-  width:85%;
-  height:85%;
-  left:1%;
-  top:3%;
+  width:100%;
+  height:90%;
+  left:0%;
+  top:0%;
   right:0%;
   bottom:10%;
   display: flex;
@@ -24,10 +24,11 @@ body{
   width:8%;
   height:5%;
   left: 91%;
- display: flex;
+  display: flex;
+  z-index: 20;
 }
 .svg-noise{
-  z-index:auto;
+  z-index:20;
   position: absolute;
   top:77%;
   left:0;
@@ -36,10 +37,10 @@ body{
 }
 .svg1{
   position:absolute;
-  left:5%;
+  left:15%;
   top:100%;
-  width:90%;
-  height:90%;
+  width:70%;
+  height:70%;
   margin-top: 5%;
   bottom:0%
 }
@@ -63,7 +64,7 @@ body{
   margin-top: 15%;
   bottom:0%
 }
-
+/*
 .svg-dice{
   display:none;
   position: absolute;
@@ -71,4 +72,4 @@ body{
   height:7%;
   left:89%;
   top:35%;
-}
+} */
