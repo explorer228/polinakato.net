@@ -8,8 +8,4 @@ iframe{
 a{
   color:#FFFF00;
   text-decoration: none;
-  z-index:2;
-}
-.link{
-       z-index:10;
 }
