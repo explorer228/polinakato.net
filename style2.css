@@ -6,5 +6,7 @@ iframe{
        height: 100%;
        }
 a{
-       z-index:1;
+  color:#ffffff;
+  font-weight: bold;
+  text-decoration: none;
 }
